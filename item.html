@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/favicon" href="images/fevicon.png">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/92b21ed5b0.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/index.5ec6cc78.css">
+    <title>Vegist - Multipurpose eCommerce HTML Template</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="flex justify-between py-2 fixed-top h-20 w-screen bg-white shadow-md lg:px-20">
+        <!-- For Logo -->
+        <a class="logo px-1" href="./index.html">
+            <img src="./images/logo1.png" alt="">
+        </a>
+
+        <!-- For options in Navbar -->
+        <div class="options flex justify-around w-1/2 mr-2 xl:w-1/3">
+
+            <div class="text-xl justify-center items-center hidden md:flex">
+                <input type="text" class="border border-slate-400 rounded-md text-sm open-sans mr-3 p-2 outline-none 
+                            bg-slate-50 focus:border focus:border-black focus:bg-slate-100" 
+                            name="" id="" placeholder="Search Items">
+                <i class="fas fa-search p-2 rounded-full bg-black text-white"></i>
+            </div>
+            <div class="text-xl flex justify-center items-center md:hidden">
+                <i class="fas fa-search"></i>
+            </div>
+            <a class="text-xl flex justify-center items-center cursor-pointer">
+                <i class="far fa-user "></i>
+            </a>
+
+            <a class="text-xl flex justify-center items-center relative cursor-pointer" href="./cart.html">
+                <i class="fas fa-shopping-bag"></i>
+                <div
+                    class="absolute w-4 h-4 flex justify-center items-center text-xs text-white font-medium bg-yellow-400 rounded-full bottom-3 left-2">
+                    2
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- Items Description -->
+    <div class="container mt-32 md:mx-auto open-sans">
+        <!-- Heading -->
+        <div class="relative w-fit mx-auto mb-6 2xl:mb-12">
+            <h1 class="text-2xl text-center font-semibold roboto mb-5 xl:text-4xl">Item Description</h1>
+            <div class="absolute h-1 w-1/2 rounded-full bg-yellow-500 -bottom-1/4 left-1/4 "></div>
+        </div>
+
+        <div class="container md:flex lg:justify-between">
+            <!-- Caraousel with item pic-->
+            <div id="itemdesc" class="carousel slide carousel-fade relative md:w-1/2 lg:w-5/12" data-bs-ride="carousel">
+                <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                    <button type="button" data-bs-target="#itemdesc" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#itemdesc" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#itemdesc" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner relative w-full overflow-hidden">
+                    <div class="carousel-item active float-left w-full">
+                        <img src="/images/pro-img-03.jpg" class="block w-full" alt="Wild Landscape" />
+                    </div>
+                    <div class="carousel-item float-left w-full">
+                        <img src="/images/pro-img-3.jpg" class="block w-full" alt="Camera" />
+                    </div>
+                    <div class="carousel-item float-left w-full">
+                        <img src="/images/pro-img-4.jpg" class="block w-full" alt="Exotic Fruits" />
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                    type="button" data-bs-target="#itemdesc" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                    type="button" data-bs-target="#itemdesc" data-bs-slide="next">
+                    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- Item desc -->
+            <div class="open-sans p-2 mt-8 flex items-center justify-center flex-col  md:w-1/2 lg:w-5/12">
+                <h1 class="font-bold text-xl w-full lg:text-3xl lg:my-2">Fresh Green Apples</h1>
+                <h1 class="w-full lg:text-2xl lg:my-2">
+                    <span class="font-bold">Category : </span>
+                    <span> Fruits </span>
+                </h1>
+                <h1 class="w-full lg:text-2xl lg:my-2">
+                    <span class="font-bold roboto">Price : </span>
+                    <span class="roboto text-red-800 line-through "> &#8377; 1300</span>
+                    <span class="roboto text-green-800 font-semibold"> &#8377; 1000</span>
+                </h1>
+                <p class="text-sm text-slate-600 w-full lg:text-xl">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, cum? Mollitia minima nemo
+                    laborum nulla animi tempore, odit ab, debitis accusamus dolor consequatur dolore cumque ullam
+                    officiis voluptatem accusantium id?
+                </p>
+                <div class="flex justify-evenly my-6 w-full md:flex-col lg:text-2xl">
+
+                    <button class="roboto uppercase text-white bg-red-600 font-semibold px-4 py-1 rounded-lg 
+                                 hover:bg-red-700 md:my-4 md:w-3/4 md:mx-auto lg:mx-0">
+                        add to cart
+                    </button>
+
+                    <button class="roboto uppercase text-white bg-yellow-400 font-semibold px-4 py-1 rounded-lg 
+                                 hover:bg-yellow-500 md:my-4 md:w-3/4 md:mx-auto lg:mx-0">
+                        Go to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Similar Products -->
+    <div class="container mt-10 md:mx-auto xl:my-20">
+        <div class="relative w-fit mx-auto xl:mb-8">
+            <h1 class="text-2xl text-center font-semibold mb-5 roboto xl:text-4xl">Similar Products</h1>
+            <div class="absolute h-1 w-1/2 -bottom-1/4 left-1/4 rounded-full bg-yellow-500"></div>
+        </div>
+        <!-- Products -->
+        <div class="container flex flex-row flex-wrap justify-center items-center">
+            <div class="items w-5/12 bg-slate-50 rounded-md m-2 border border-slate-200 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="/images/pro-img-01.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="/images/pro-img-1.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbion -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-slate-50 rounded-md m-2 border border-slate-200 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="/images/pro-img-02.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="/images/pro-img-2.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbion -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-slate-50 rounded-md m-2 border border-slate-200 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="/images/pro-img-03.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="/images/pro-img-3.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbion -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-slate-50 rounded-md m-2 border border-slate-200 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="/images/pro-img-04.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="/images/pro-img-4.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbion -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-slate-50 rounded-md m-2 border border-slate-200 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="/images/pro-img-05.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="/images/pro-img-5.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbion -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Footers -->
+    <div class="container-fluid bg-slate-100 my-3 py-8">
+        <div class="logo px-2 text-center">
+            <img src="/images/logo1.png" class="w-28 mx-auto" alt="">
+        </div>
+
+        <!-- Features -->
+        <div class="container md:mx-auto">
+
+            <div class="flex flex-row mt-4">
+                <div class="w-1/4 flex justify-center items-center">
+                    <i class="fas fa-map-marker-alt text-yellow-400 text-3xl"></i>
+                </div>
+                <div class="w-3/4">
+                    <h1 class="text-yellow-400 roboto font-bold xl:text-2xl">Address</h1>
+                    <p class="text-xs open-sans xl:text-base">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, tempore. Fugiat facilis
+                        beatae
+                        vel et quaerat, nostrum eum numquam omnis nisi temporibus ullam. Pariatur dolorum fugit placeat
+                        nemo
+                        minima sunt.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-row mt-4">
+                <div class="w-1/4 flex justify-center items-center">
+                    <i class="fas fa-phone-alt text-yellow-400 text-3xl"></i>
+                </div>
+                <div class="w-3/4">
+                    <h1 class="text-yellow-400 roboto font-bold xl:text-2xl">Contacts</h1>
+                    <p class="text-xs open-sans xl:text-base">
+                        Phone - 1212121212 <br>
+                        Email - sample@gmail.com
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    
+    <!-- Tailwind Script -->
+    <script src="node_modules/tw-elements/dist/js/index.min.js"></script>
+</body>
+
+</html>

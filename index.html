@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/favicon" href="images/fevicon.png">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/92b21ed5b0.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/index.5ec6cc78.css">
+    <title>Vegist - Multipurpose eCommerce HTML Template</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="flex justify-between py-2 fixed-top h-20 w-screen bg-white shadow-md lg:px-20">
+        <!-- For Logo -->
+        <a class="logo px-1" href="./index.html">
+            <img src="./images/logo1.png" alt="">
+        </a>
+
+        <!-- For options in Navbar -->
+        <div class="options flex justify-around w-1/2 mr-2 xl:w-1/3">
+
+            <div class="text-xl justify-center items-center hidden md:flex">
+                <input type="text" class="border border-slate-400 rounded-md text-sm open-sans mr-3 p-2 outline-none 
+                            bg-slate-50 focus:border focus:border-black focus:bg-slate-100" 
+                            name="" id="" placeholder="Search Items">
+                <i class="fas fa-search p-2 rounded-full bg-black text-white"></i>
+            </div>
+            <div class="text-xl flex justify-center items-center md:hidden">
+                <i class="fas fa-search"></i>
+            </div>
+            <a class="text-xl flex justify-center items-center cursor-pointer">
+                <i class="far fa-user "></i>
+            </a>
+
+            <a class="text-xl flex justify-center items-center relative cursor-pointer" href="./cart.html">
+                <i class="fas fa-shopping-bag"></i>
+                <div
+                    class="absolute w-4 h-4 flex justify-center items-center text-xs text-white font-medium bg-yellow-400 rounded-full bottom-3 left-2">
+                    2
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- Carousels -->
+    <div id="topCarousel" class="carousel slide mt-20 carousel-fade relative" data-bs-ride="carousel">
+        <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+            <button type="button" data-bs-target="#topCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#topCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#topCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner relative w-full overflow-hidden">
+            <!-- Slide1 -->
+            <div class="carousel-item active relative float-left w-full">
+
+                <div class="container-fluid h-96 transition-all lg:h-[30rem] xl:h-[35rem] 2xl:h-[43rem]">
+                    <div class="slider1 h-full relative">
+                        <img src="./images/slider.jpeg" class=" h-full object-cover w-full" alt="">
+                        <!-- Inside Text -->
+                        <div class="absolute top-0 left-0 h-96 w-full flex flex-col justify-center items-center lg:h-[30rem] xl:h-[35rem] 2xl:h-[43rem]">
+                            <div class="logo xl:w-40">
+                                <img src="./images/logo1.png" alt="" class="mb-3 w-full">
+                            </div>
+                            <h3 class="my-3 text-center open-sans font-bold xl:text-xl">Top Selling!</h3>
+                            <h1 class="text-2xl font-extrabold open-sans mb-4 xl:text-4xl xl:font-bold xl:mb-8">Fresh for your Health</h1>
+                            <button
+                                class="bg-yellow-500 text-white text-md py-2 px-8 rounded-3xl roboto font-semibold hover:bg-yellow-400 lg:text-xl">
+                                Shop Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- Slider -2 -->
+            <div class="carousel-item relative float-left w-full">
+
+
+                <div class="container-fluid h-96 transition-all lg:h-[30rem] xl:h-[35rem] 2xl:h-[43rem]">
+                    <div class="slider1 h-full relative">
+                        <img src="./images/slider2.jpg" class=" h-full object-cover w-full" alt="">
+                        <!-- Inside Text -->
+                        <div class="absolute top-0 right-4 h-96 flex flex-col justify-center items-center md:right-20 lg:h-[30rem] lg:right-28 xl:h-[35rem] 2xl:h-[43rem] 2xl:right-52">
+                            <div class="logo xl:w-40">
+                                <img src="./images/logo1.png" alt="" class="mb-3 w-full">
+                            </div>
+                            <h3 class="my-3 text-center font-bold open-sans xl:text-xl">Organic Indian masala</h3>
+                            <h1 class="text-2xl font-extrabold open-sans mb-4 xl:text-4xl xl:font-bold xl:mb-8">Prod of Indian<br>100% pacaging</h1>
+                            <button
+                                class="bg-yellow-500 text-white text-md py-2 px-8 rounded-3xl roboto font-semibold hover:bg-yellow-400 lg:text-xl">Shop
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- Slider -3 -->
+            <div class="carousel-item relative float-left w-full">
+
+
+                <div class="container-fluid h-96 transition-all lg:h-[30rem] xl:h-[35rem] 2xl:h-[43rem]">
+                    <div class="slider1 h-full relative">
+                        <img src="./images/slider1.jpg" class=" h-full object-cover w-full" alt="">
+                        <!-- Inside Text -->
+                        <div class="absolute top-0 left-4 h-96 flex flex-col justify-center items-center md:left-20 lg:h-[30rem] lg:left-28 xl:h-[35rem] 2xl:h-[43rem] 2xl:left-52">
+                            <div class="logo xl:w-40">
+                                <img src="./images/logo1.png" alt="" class="mb-3 w-full">
+                            </div>
+                            <h3 class="my-3 text-center font-bold open-sans xl:text-xl">Summer Vage Sale</h3>
+                            <h1 class="text-2xl font-extrabold open-sans mb-4 xl:text-4xl xl:font-bold xl:mb-8">Fresh Fruits<br> &Vegetables</h1>
+                            <button
+                                class="bg-yellow-500 text-white text-md py-2 px-8 rounded-3xl font-semibold roboto hover:bg-yellow-400 lg:text-xl">Shop
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+            type="button" data-bs-target="#topCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon inline-block bg-no-repeat " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+            type="button" data-bs-target="#topCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Shop Elements -->
+    <div class="container-fluid p-4 my-10">
+
+        <div class="relative w-fit mx-auto">
+            <h1 class="text-2xl text-center font-semibold roboto mb-5 xl:text-4xl">Exciting Deals</h1>
+            <div class="absolute h-1 w-1/2 rounded-full bg-yellow-500 -bottom-1/4 left-1/4 "></div>
+        </div>
+
+        <div class="flex justify-center items-center flex-wrap 2xl:mt-10">
+
+            <div class="group container relative h-56 w-96 overflow-hidden transition-all m-2 lg:w-[30rem] lg:h-72 xl:mx-5 2xl:w-[35rem] 2xl:h-96">
+                <img src="./images/banner-1.jpg"
+                    class="h-56 w-96 cursor-pointer transition-all ease-in-out duration-700 group-hover:scale-110 lg:w-[30rem] lg:h-72 2xl:w-[35rem] 2xl:h-96" alt="">
+                <div class="absolute top-0 left-0 h-56 p-4 w-96 flex flex-col justify-center transition-all ease-in-out duration-700 lg:w-[30rem] lg:h-72 2xl:w-[35rem] 2xl:h-96">
+                    <!-- Hover Lines -->
+                    <div class="vertical-left left-2 w-0.5 h-0 absolute bg-white opacity-0 transition-all ease-in-out duration-700 
+                                group-hover:h-96 group-hover:opacity-100"></div>
+                    <div class="vertical-right right-2 w-0.5 h-0 absolute bg-white opacity-0 transition-all ease-in-out duration-700 
+                                group-hover:h-96 group-hover:opacity-100"></div>
+                    <div class="horizontal-top top-2 left-1/2 h-0.5 w-0 absolute bg-white opacity-0 transition-all ease-in-out duration-700 
+                                group-hover:w-[150rem] group-hover:opacity-100 group-hover:left-[-3rem]"></div>
+                    <div class="horizontal-top bottom-2 left-1/2 h-0.5 w-0 absolute bg-white opacity-0 transition-all ease-in-out duration-700
+                                group-hover:w-[150rem] group-hover:opacity-100 group-hover:left-[-3rem]"></div>
+                    <!-- <div class="absolute left-2 h-52 w-[23rem] border border-white transition-all ease-in-out duration-700 hidden group-hover:block"></div> -->
+
+
+                    <h1 class="text-lg text-white font-semibold mb-5 open-sans 2xl:text-3xl">Fresh fruits and vegetables <br> on our Product </h1>
+                    <button class="bg-yellow-500 text-white text-md py-2 px-4 rounded-3xl hover:bg-yellow-400 w-fit roboto 2xl:text-2xl 2xl:px-6">
+                        Shop Now</button>
+                </div>
+            </div>
+            <div class="group container relative h-56 w-96 overflow-hidden transition-all m-2 lg:w-[30rem] lg:h-72 xl:mx-5 2xl:w-[35rem] 2xl:h-96">
+                <img src="./images/banner-2.jpg"
+                    class="h-56 w-96 cursor-pointer transition-all ease-in-out duration-700 group-hover:scale-110 lg:w-[30rem] lg:h-72 2xl:w-[35rem] 2xl:h-96" alt="">
+                <div class="absolute top-0 left-0 h-56 p-4 w-96 flex flex-col justify-center transition-all ease-in-out duration-700 lg:w-[30rem] lg:h-72 2xl:w-[35rem] 2xl:h-96">
+                    <!-- Hover Lines -->
+                    <div class="vertical-left left-2 w-0.5 h-0 absolute bg-black opacity-0 transition-all ease-in-out duration-700 
+                                group-hover:h-96 group-hover:opacity-100"></div>
+                    <div class="vertical-right right-2 w-0.5 h-0 absolute bg-black opacity-0 transition-all ease-in-out duration-700 
+                                group-hover:h-96 group-hover:opacity-100"></div>
+                    <div class="horizontal-top top-2 left-1/2 h-0.5 w-0 absolute bg-black opacity-0 transition-all ease-in-out duration-700 
+                                group-hover:w-[150rem] group-hover:opacity-100 group-hover:left-[-3rem]"></div>
+                    <div class="horizontal-top bottom-2 left-1/2 h-0.5 w-0 absolute bg-black opacity-0 transition-all ease-in-out duration-700
+                                group-hover:w-[150rem] group-hover:opacity-100 group-hover:left-[-3rem]"></div>
+                    <!-- <div class="absolute left-2 h-52 w-[23rem] border border-black transition-all ease-in-out duration-700 hidden group-hover:block"></div> -->
+
+
+                    <h1 class="text-lg text-white font-semibold mb-5 open-sans 2xl:text-3xl">Fresh fruits and vegetables <br> on our Product </h1>
+                    <button class="bg-yellow-500 text-white text-md py-2 px-4 rounded-3xl hover:bg-yellow-400 w-fit roboto 2xl:text-2xl 2xl:px-6">
+                        Shop Now</button>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+
+    </div>
+
+
+
+    <!-- Shop By Category -->
+    <div class="container-fluid bg-slate-100 p-6">
+
+
+        <div class="w-fit mx-auto relative">
+            <h1 class="text-2xl text-center font-semibold mb-5 roboto xl:text-4xl">Categories</h1>
+            <div class="absolute h-1 w-1/2 -bottom-1/4 left-1/4 rounded-full bg-yellow-500 "></div>
+        </div>
+
+        <div class="container mx-auto mt-5 flex flex-row items-center overflow-x-auto xl:justify-center xl:my-10">
+            <!-- Items -->
+            <div class="group items w-28 transition-all duration-700 m-2">
+                <div class="relative w-28">
+                    <img src="./images/cat1.jpg" class="w-28 rounded-full border-[1px] border-slate-400 " alt="">
+                    <div class="absolute bg-black h-1 w-1 top-1/2 left-1/2 rounded-full text-white text-sm opacity-50
+                                items-center justify-center text-center transition-all duration-700  group-hover:flex group-hover:h-28
+                                group-hover:w-28 group-hover:top-0 group-hover:left-0">
+                        <div class="hidden transition-all duration-700 delay-500 group-hover:block open-sans">
+                            Fresh Vegetables
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm text-center open-sans">19 Items</div>
+            </div>
+            <div class="group items w-28 transition-all duration-700 m-2">
+                <div class="relative w-28">
+                    <img src="./images/cat2.jpg" class="w-28 rounded-full border-[1px] border-slate-400 " alt="">
+                    <div class="absolute bg-black h-1 w-1 top-1/2 left-1/2 rounded-full text-white text-sm opacity-50
+                                items-center justify-center text-center transition-all duration-700  group-hover:flex group-hover:h-28
+                                group-hover:w-28 group-hover:top-0 group-hover:left-0">
+                        <div class="hidden transition-all duration-700 delay-500 open-sans group-hover:block">
+                            Fresh Vegetables
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm text-center open-sans">19 Items</div>
+            </div>
+            <div class="group items w-28 transition-all duration-700 m-2">
+                <div class="relative w-28">
+                    <img src="./images/cat3.jpg" class="w-28 rounded-full border-[1px] border-slate-400 " alt="">
+                    <div class="absolute bg-black h-1 w-1 top-1/2 left-1/2 rounded-full text-white text-sm opacity-50
+                                items-center justify-center text-center transition-all duration-700  group-hover:flex group-hover:h-28
+                                group-hover:w-28 group-hover:top-0 group-hover:left-0">
+                        <div class="hidden transition-all duration-700 delay-500 open-sans group-hover:block">
+                            Fresh Vegetables
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm text-center open-sans">19 Items</div>
+            </div>
+            <div class="group items w-28 transition-all duration-700 m-2">
+                <div class="relative w-28">
+                    <img src="./images/cat4.jpg" class="w-28 rounded-full border-[1px] border-slate-400 " alt="">
+                    <div class="absolute bg-black h-1 w-1 top-1/2 left-1/2 rounded-full text-white text-sm opacity-50
+                                items-center justify-center text-center transition-all duration-700  group-hover:flex group-hover:h-28
+                                group-hover:w-28 group-hover:top-0 group-hover:left-0">
+                        <div class="hidden transition-all duration-700 delay-500 open-sans group-hover:block">
+                            Fresh Vegetables
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm text-center open-sans">19 Items</div>
+            </div>
+            <div class="group items w-28 transition-all duration-700 m-2">
+                <div class="relative w-28">
+                    <img src="./images/cat5.jpg" class="w-28 rounded-full border-[1px] border-slate-400 " alt="">
+                    <div class="absolute bg-black h-1 w-1 top-1/2 left-1/2 rounded-full text-white text-sm opacity-50
+                                items-center justify-center text-center transition-all duration-700  group-hover:flex group-hover:h-28
+                                group-hover:w-28 group-hover:top-0 group-hover:left-0">
+                        <div class="hidden transition-all duration-700 delay-500 open-sans group-hover:block">
+                            Fresh Vegetables
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm text-center open-sans">19 Items</div>
+            </div>
+            <div class="group items w-28 transition-all duration-700 m-2">
+                <div class="relative w-28">
+                    <img src="./images/cat6.jpg" class="w-28 rounded-full border-[1px] border-slate-400 " alt="">
+                    <div class="absolute bg-black h-1 w-1 top-1/2 left-1/2 rounded-full text-white text-sm opacity-50
+                                items-center justify-center text-center transition-all duration-700  group-hover:flex group-hover:h-28
+                                group-hover:w-28 group-hover:top-0 group-hover:left-0">
+                        <div class="hidden transition-all duration-700 delay-500 open-sans group-hover:block">
+                            Fresh Vegetables
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm text-center open-sans">19 Items</div>
+            </div>
+            <div class="group items w-28 transition-all duration-700 m-2">
+                <div class="relative w-28">
+                    <img src="./images/cat7.jpg" class="w-28 rounded-full border-[1px] border-slate-400 " alt="">
+                    <div class="absolute bg-black h-1 w-1 top-1/2 left-1/2 rounded-full text-white text-sm opacity-50
+                                items-center justify-center text-center transition-all duration-700  group-hover:flex group-hover:h-28
+                                group-hover:w-28 group-hover:top-0 group-hover:left-0">
+                        <div class="hidden transition-all duration-700 delay-500 open-sans group-hover:block">
+                            Fresh Vegetables
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm text-center open-sans">19 Items</div>
+            </div>
+            <div class="group items w-28 transition-all duration-700 m-2">
+                <div class="relative w-28">
+                    <img src="./images/cat9.jpg" class="w-28 rounded-full border-[1px] border-slate-400 " alt="">
+                    <div class="absolute bg-black h-1 w-1 top-1/2 left-1/2 rounded-full text-white text-sm opacity-50
+                                items-center justify-center text-center transition-all duration-700  group-hover:flex group-hover:h-28
+                                group-hover:w-28 group-hover:top-0 group-hover:left-0">
+                        <div class="hidden transition-all duration-700 delay-500 open-sans group-hover:block">
+                            Fresh Vegetables
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm text-center open-sans">19 Items</div>
+            </div>
+            <div class="group items w-28 transition-all duration-700 m-2">
+                <div class="relative w-28">
+                    <img src="./images/cat8.jpg" class="w-28 rounded-full border-[1px] border-slate-400 " alt="">
+                    <div class="absolute bg-black h-1 w-1 top-1/2 left-1/2 rounded-full text-white text-sm opacity-50
+                                items-center justify-center text-center transition-all duration-700  group-hover:flex group-hover:h-28
+                                group-hover:w-28 group-hover:top-0 group-hover:left-0">
+                        <div class="hidden transition-all duration-700 delay-500 open-sans group-hover:block">
+                            Fresh Vegetables
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm text-center open-sans">19 Items</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Trending Products -->
+    <div class="container mt-10 md:mx-auto xl:my-20">
+        <div class="relative w-fit mx-auto xl:mb-8">
+            <h1 class="text-2xl text-center font-semibold mb-5 roboto xl:text-4xl">Trending Products</h1>
+            <div class="absolute h-1 w-1/2 -bottom-1/4 left-1/4 rounded-full bg-yellow-500"></div>
+        </div>
+        <!-- Products -->
+        <div class="container flex flex-row flex-wrap justify-center items-center">
+            <div class="items w-5/12 bg-slate-50 rounded-md m-2 border border-slate-200 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="./images/pro-img-01.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="./images/pro-img-1.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbion -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-slate-50 rounded-md m-2 border border-slate-200 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="./images/pro-img-02.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="./images/pro-img-2.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbion -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-slate-50 rounded-md m-2 border border-slate-200 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="./images/pro-img-03.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="./images/pro-img-3.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbion -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-slate-50 rounded-md m-2 border border-slate-200 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="./images/pro-img-04.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="./images/pro-img-4.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbion -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-slate-50 rounded-md m-2 border border-slate-200 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="./images/pro-img-05.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="./images/pro-img-5.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbion -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!-- All Products -->
+    <div class="container-fluid bg-slate-100 mt-5 py-5 xl:my-20">
+        <div class="relative w-fit mx-auto xl:mb-8">
+            <h1 class="text-2xl text-center roboto font-semibold mb-5 xl:text-4xl">All Products</h1>
+            <div class="absolute h-1 w-1/2 -bottom-1/4 left-1/4 rounded-full bg-yellow-500"></div>
+        </div>
+        <div class="container flex flex-row flex-wrap justify-center items-center md:mx-auto">
+            <div class="items w-5/12 bg-white rounded-md m-2 border border-slate-200 shadow-md shadow-slate-400 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="./images/pro-img-06.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="./images/pro-img-6.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbon -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-white rounded-md m-2 border border-slate-200 shadow-md shadow-slate-400 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="./images/pro-img-07.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="./images/pro-img-7.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbon -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-white rounded-md m-2 border border-slate-200 shadow-md shadow-slate-400 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="./images/pro-img-08.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="./images/pro-img-8.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbon -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-white rounded-md m-2 border border-slate-200 shadow-md shadow-slate-400 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="./images/pro-img-09.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="./images/pro-img-9.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbon -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-white rounded-md m-2 border border-slate-200 shadow-md shadow-slate-400 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="./images/pro-img-010.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="./images/pro-img-10.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbon -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+            <div class="items w-5/12 bg-white rounded-md m-2 border border-slate-200 shadow-md shadow-slate-400 md:w-60">
+                <!-- Images -->
+                <div class="group prod-img overflow-hidden relative">
+                    <img src="./images/pro-img-03.jpg" class="w-full group-hover:hidden" alt="">
+                    <img src="./images/pro-img-3.jpg" class="w-full hidden group-hover:block" alt="">
+                    <div class="flex justify-around">
+                        <i
+                            class="fas fa-shopping-bag p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                        <i class="fas fa-eye  p-2 bg-white rounded-full hover:bg-yellow-400 hover:text-white"></i>
+                    </div>
+                    <!-- Ribbon -->
+                    <div class="bg-red-600 top-[1rem] right-[1.4rem] w-40 text-center absolute border border-black"
+                        style="transform:translateX(50%) rotate(45deg);">
+                        <div class="text-white roboto">90%</div>
+                    </div>
+
+                </div>
+                <!-- Description -->
+                <div class="container mt-1">
+                    <h1 class="text-md text-center open-sans">Fresh Papaya</h1>
+                    <h1 class="text-md text-center line-through text-slate-500 roboto">
+                        &#8377;100.00
+                    </h1>
+                    <h1 class="text-md text-center font-semibold roboto">
+                        &#8377;90.00
+                    </h1>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+
+
+    <!-- Features -->
+    <div class="container flex flex-row items-center overflow-x-scroll my-8 h-52 w-5/6 mx-auto md:justify-center">
+
+        <div class="m-2 border border-yellow-400 rounded-full w-28 h-28 flex justify-center items-center relative">
+            <i class="fas fa-truck text-3xl bg-yellow-400 text-white rounded-full w-24 h-24 m-1 justify-center items-center"
+                style="display: flex;"></i>
+            <div class="text-sm absolute bottom-[-2.5rem] text-center open-sans">
+                Fast Delivery
+            </div>
+        </div>
+
+        <div class="m-2 border border-yellow-400 rounded-full w-28 h-28 flex justify-center items-center relative">
+            <i class="fas fa-rupee-sign text-3xl bg-yellow-400 text-white rounded-full w-24 h-24 m-1 justify-center items-center"
+                style="display: flex;"></i>
+            <div class="text-sm absolute bottom-[-2.5rem] text-center open-sans">
+                Pay on Delivery
+            </div>
+        </div>
+
+        <div class="m-2 border border-yellow-400 rounded-full w-28 h-28 flex justify-center items-center relative">
+            <i class="fas fa-exchange-alt text-3xl bg-yellow-400 text-white rounded-full w-24 h-24 m-1 justify-center items-center"
+                style="display: flex;"></i>
+            <div class="text-sm absolute bottom-[-2.5rem] text-center open-sans">
+                10 day Excahnge
+            </div>
+        </div>
+
+        <div class="m-2 border border-yellow-400 rounded-full w-28 h-28 flex justify-center items-center relative">
+            <i class="fas fa-headphones text-3xl bg-yellow-400 text-white rounded-full w-24 h-24 m-1 justify-center items-center"
+                style="display: flex;"></i>
+            <div class="text-sm absolute bottom-[-2.5rem] text-center open-sans">
+                Online Support
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Footers -->
+    <div class="container-fluid bg-slate-100 my-3 py-8">
+        <div class="logo px-2 text-center">
+            <img src="./images/logo1.png" class="w-28 mx-auto" alt="">
+        </div>
+
+        <!-- Features -->
+        <div class="container md:mx-auto">
+
+            <div class="flex flex-row mt-4">
+                <div class="w-1/4 flex justify-center items-center">
+                    <i class="fas fa-map-marker-alt text-yellow-400 text-3xl"></i>
+                </div>
+                <div class="w-3/4">
+                    <h1 class="text-yellow-400 roboto font-bold xl:text-2xl">Address</h1>
+                    <p class="text-xs open-sans xl:text-base">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, tempore. Fugiat facilis beatae
+                        vel et quaerat, nostrum eum numquam omnis nisi temporibus ullam. Pariatur dolorum fugit placeat nemo
+                        minima sunt.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-row mt-4">
+                <div class="w-1/4 flex justify-center items-center">
+                    <i class="fas fa-phone-alt text-yellow-400 text-3xl"></i>
+                </div>
+                <div class="w-3/4">
+                    <h1 class="text-yellow-400 roboto font-bold xl:text-2xl">Contacts</h1>
+                    <p class="text-xs open-sans xl:text-base">
+                        Phone - 1212121212 <br>
+                        Email - sample@gmail.com
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- Tailwind Script -->
+    <script src="node_modules/tw-elements/dist/js/index.min.js"></script>
+</body>
+
+</html>
